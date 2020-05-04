@@ -8,104 +8,117 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
-.w3-sidebar {
-  z-index: 3;
-  width: 250px;
-  top: 43px;
-  bottom: 0;
-  height: inherit;
-  color:#0083f7 !important;
-
-}
-.h2-color{
-	color:#000000;
+	html,
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Roboto", sans-serif;
 	}
-  .w3-padding-45{
-    padding-bottom:45px;
-  }
+
+	.w3-sidebar {
+		z-index: 3;
+		width: 250px;
+		top: 43px;
+		bottom: 0;
+		height: inherit;
+		color: #0083f7 !important;
+
+	}
+
+	.h2-color {
+		color: #000000;
+	}
+
+	.w3-padding-45 {
+		padding-bottom: 45px;
+	}
 </style>
+
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-theme-l1">HOME</a>
-    <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>-->
+	<!-- Navbar -->
+	<div class="w3-top">
+		<div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+			<a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+			<a href="#" class="w3-bar-item w3-button w3-theme-l1">HOME</a>
+			<!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>-->
 
-  </div>
-</div>
-
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
-    <i class="fa fa-remove"></i>
-  </a>
-  <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Credit Karma</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Mavenlink</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Uber</a>
-</nav>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
-
-  <div class="w3-row w3-padding-45" style="padding-top:65px;">
-	<div class="w3-twothird w3-container">
-
-		<h2 class="h2-color"> Credit Karma</h2>
-
-		<li><a href="production/creditkarma/Amex.html" style="color:#0083f7; text-decoration:none;">Amex</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/Amex.html" style="color:#0083f7; text-decoration:none;">GitHub
-			</a>
-		<li><a href="production/creditkarma/App-Install.html" style="color:#0083f7; text-decoration:none;">App-Install</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/App-Install.html"
-			 style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-		<li><a href="production/creditkarma/Auto-Dashboard.html" style="color:#0083f7; text-decoration:none;">Auto Dashboard</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/Auto-Dashboard.html"
-			 style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-		<li><a href="production/creditkarma/CC.html" style="color:#0083f7; text-decoration:none;">Credit Score</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/CC.html"
-			 style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-		<li><a href="production/creditkarma/Financial-Goals.html" style="color:#0083f7; text-decoration:none;">Financial Goals</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/Financial-Goals.html"
-			 style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-
+		</div>
 	</div>
 
-</div>
+	<!-- Sidebar -->
+	<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+		<a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+			<i class="fa fa-remove"></i>
+		</a>
+		<h4 class="w3-bar-item"><b>Menu</b></h4>
+		<a class="w3-bar-item w3-button w3-hover-black" href="#Credit_karma">Credit Karma</a>
+		<a class="w3-bar-item w3-button w3-hover-black" href="#Mavenlink">Mavenlink</a>
+		<a class="w3-bar-item w3-button w3-hover-black" href="#Uber">Uber</a>
+	</nav>
 
-<div class="w3-row w3-padding-45">
-	<div class="w3-twothird w3-container">
+	<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-		<h2 class="h2-color"> Mavenlink</h2>
+	<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+	<div class="w3-main" style="margin-left:250px">
 
-		<li><a href="production/mavenlink/content-download/content-download.html" style="color:#0083f7; text-decoration:none;">Content Download</a> | <a
-			 href="https://github.com/hydergowher/portfolio/blob/master/mavenlink/content-download/content-download.html" style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-		<li><a href="production/mavenlink/content_download_thank_you/content_download_thank_you.html" style="color:#0083f7; text-decoration:none;">Content Download - Thank You</a> | <a href="" style="color:#0083f7; text-decoration:none;">GitHub
-			</a>
-		<li><a href="production/mavenlink/event/event.html" style="color:#0083f7; text-decoration:none;">Event Announcement</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/mavenlink/event/event.html"
-			 style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-		<li><a href="production/mavenlink/upcoming-webinar/upcoming-webinar.html" style="color:#0083f7; text-decoration:none;">Upcoming Webinar</a> | <a
-			 href="https://github.com/hydergowher/portfolio/blob/master/mavenlink/upcoming-webinar/upcoming-webinar.html" style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+		<div class="w3-row w3-padding-45" style="padding-top:65px;">
+			<div class="w3-twothird w3-container">
 
-	</div>
+				<h2 class="h2-color"> <a name="Credit_karma" style="color:#00000; text-decoration:none;">Credit Karma</a></h2>
 
-</div>
+				<li><a href="production/creditkarma/Amex.html" style="color:#0083f7; text-decoration:none;">Amex</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/Amex.html" style="color:#0083f7; text-decoration:none;">GitHub
+					</a>
+				<li><a href="production/creditkarma/App-Install.html" style="color:#0083f7; text-decoration:none;">App-Install</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/App-Install.html"
+						style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+				<li><a href="production/creditkarma/Auto-Dashboard.html" style="color:#0083f7; text-decoration:none;">Auto Dashboard</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/Auto-Dashboard.html"
+						style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+				<li><a href="production/creditkarma/CC.html" style="color:#0083f7; text-decoration:none;">Credit Score</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/CC.html"
+						style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+				<li><a href="production/creditkarma/Financial-Goals.html" style="color:#0083f7; text-decoration:none;">Financial Goals</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/creditkarma/Financial-Goals.html"
+						style="color:#0083f7; text-decoration:none;">GitHub</a></li>
 
-<div class="w3-row w3-padding-45">
-	<div class="w3-twothird w3-container">
+			</div>
 
-		<h2 class="h2-color"> Uber</h2>
+		</div>
 
-		<li><a href="production/uber/Weather_Forecast.html" style="color:#0083f7; text-decoration:none;">Weather Forecast</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/uber/Weather_Forecast.html"
-			 style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-		<li><a href="production/uber/Leagal_Learning.html" style="color:#0083f7; text-decoration:none;">Legal Learning</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/uber/Legal_Learning.html"
-			 style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-		<li><a href="production/uber/Learning_Status.html" style="color:#0083f7; text-decoration:none;">Learning Status</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/uber/Legal_Status.html"
-			 style="color:#0083f7; text-decoration:none;">GitHub</a></li>
-	</div>
+		<div class="w3-row w3-padding-45">
+			<div class="w3-twothird w3-container">
 
-</div>
+				<h2 class="h2-color"> <a name="Mavenlink" style="color:#00000; text-decoration:none;">Mavenlink</a></h2>
+
+				<li><a href="production/mavenlink/content-download/content-download.html" style="color:#0083f7; text-decoration:none;">Content Download</a> | <a
+						href="https://github.com/hydergowher/portfolio/blob/master/mavenlink/content-download/content-download.html" style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+				<li><a href="production/mavenlink/content_download_thank_you/content_download_thank_you.html" style="color:#0083f7; text-decoration:none;">Content Download - Thank You</a> | <a href="" style="color:#0083f7; text-decoration:none;">GitHub
+					</a>
+				<li><a href="production/mavenlink/event/event.html" style="color:#0083f7; text-decoration:none;">Event Announcement</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/mavenlink/event/event.html"
+						style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+				<li><a href="production/mavenlink/upcoming-webinar/upcoming-webinar.html" style="color:#0083f7; text-decoration:none;">Upcoming Webinar</a> | <a
+						href="https://github.com/hydergowher/portfolio/blob/master/mavenlink/upcoming-webinar/upcoming-webinar.html" style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+
+			</div>
+
+		</div>
+
+		<div class="w3-row w3-padding-45">
+			<div class="w3-twothird w3-container">
+
+				<h2 class="h2-color"> <a name="Uber" style="color:#00000; text-decoration:none;">Uber</a></h2>
+
+				<li><a href="production/uber/Weather_Forecast.html" style="color:#0083f7; text-decoration:none;">Weather Forecast</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/uber/Weather_Forecast.html"
+						style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+				<li><a href="production/uber/Leagal_Learning.html" style="color:#0083f7; text-decoration:none;">Legal Learning</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/uber/Legal_Learning.html"
+						style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+				<li><a href="production/uber/Learning_Status.html" style="color:#0083f7; text-decoration:none;">Learning Status</a> | <a href="https://github.com/hydergowher/portfolio/blob/master/uber/Legal_Status.html"
+						style="color:#0083f7; text-decoration:none;">GitHub</a></li>
+			</div>
+
+		</div>
 
 
 
@@ -113,7 +126,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 
 
-  <!-- Pagination
+		<!-- Pagination
   <div class="w3-center w3-padding-32">
     <div class="w3-bar">
       <a class="w3-button w3-black" href="#">1</a>
@@ -125,43 +138,44 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     </div>
   </div>-->
 
-  <footer id="myFooter">
-      <!--<div class="w3-container w3-theme-l2 w3-padding-32">
+		<footer id="myFooter">
+			<!--<div class="w3-container w3-theme-l2 w3-padding-32">
       <h4>Footer</h4>
     </div>-->
 
-    <div class="w3-container w3-theme-l1">
-      <p><b>Note:</b> This content is only accessible for approved parties. <br>Please ask my permission before downloading or using for other means. </p>
-    </div>
-  </footer>
+			<div class="w3-container w3-theme-l1">
+				<p><b>Note:</b> This content is only accessible for approved parties. <br>Please ask my permission before downloading or using for other means. </p>
+			</div>
+		</footer>
 
-<!-- END MAIN -->
-</div>
+		<!-- END MAIN -->
+	</div>
 
-<script>
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
+	<script>
+		// Get the Sidebar
+		var mySidebar = document.getElementById("mySidebar");
 
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
+		// Get the DIV with overlay effect
+		var overlayBg = document.getElementById("myOverlay");
 
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
-    overlayBg.style.display = "block";
-  }
-}
+		// Toggle between showing and hiding the sidebar, and add overlay effect
+		function w3_open() {
+			if (mySidebar.style.display === 'block') {
+				mySidebar.style.display = 'none';
+				overlayBg.style.display = "none";
+			} else {
+				mySidebar.style.display = 'block';
+				overlayBg.style.display = "block";
+			}
+		}
 
-// Close the sidebar with the close button
-function w3_close() {
-  mySidebar.style.display = "none";
-  overlayBg.style.display = "none";
-}
-</script>
+		// Close the sidebar with the close button
+		function w3_close() {
+			mySidebar.style.display = "none";
+			overlayBg.style.display = "none";
+		}
+	</script>
 
 </body>
+
 </html>
