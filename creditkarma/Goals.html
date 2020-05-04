@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" style="-webkit-text-size-adjust: 100%;">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--[if !mso]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+  <title>Credit Karma</title>
+  <!--[if gte mso 9]><style>li { text-indent: -1em; }</style><![endif]-->
+  <style>
+    @media screen {
+      @font-face {
+        font-family: 'Sailec-Bold';
+        src: url('https://creditkarmacdn-a.akamaihd.net/res/content/bundles/galaxy-css/4.0.2/fonts/sailec-bold.woff2') format('woff2'), url('https://creditkarmacdn-a.akamaihd.net/res/content/bundles/galaxy-css/4.0.2/fonts/sailec-bold.woff') format('woff');
+        font-weight: 700 !important;
+        font-style: normal !important;
+        mso-font-alt: 'Arial'
+      }
+    }
+
+    /* MOBILE-Styles*/
+    @media screen and (max-width: 480px) {
+
+      /* mb RESIZE
+  ------------------------*/
+      .mb-100,
+      .container {
+        width: 100% !important;
+        margin: auto;
+      }
+
+      .mb-95 {
+        width: 94.99% !important;
+      }
+
+      .mb-90 {
+        width: 89.99% !important;
+      }
+
+      .mb-87 {
+        width: 86.99% !important;
+      }
+
+      .mb-86 {
+        width: 85.99% !important;
+      }
+
+      .mb-85 {
+        width: 84.99% !important;
+      }
+
+      .mb-80 {
+        width: 79.99% !important;
+      }
+
+      .mb-75 {
+        width: 74.99% !important;
+      }
+
+      .mb-65 {
+        width: 64.99% !important;
+      }
+
+      .mb-50 {
+        width: 49.99% !important;
+      }
+
+      .mb-25 {
+        width: 24.99% !important;
+      }
+
+      .mb-30 {
+        width: 29.99% !important;
+      }
+
+      .mb-5 {
+        width: 4.99% !important;
+      }
+
+      .logo {
+        width: 38% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+      }
+
+      .mb-left {
+        text-align: left !important;
+      }
+
+      .mb-center {
+        text-align: center !important;
+      }
+
+      img.mb-center {
+        display: block !important;
+        margin: auto !important;
+        text-align: center !important;
+      }
+
+      .mb-inline-block {
+        display: inline-block !important;
+      }
+
+      .mb-block {
+        display: block !important;
+      }
+
+      .mb-hide {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+      }
+
+      .mb-bg-white {
+        background-color: #FFFFFF !important;
+      }
+
+      .mb-cta-color-change {
+        background-color: #0C9AFB !important;
+        border: 1px solid #0C9AFB !important;
+        color: #FFFFFF !important;
+      }
+
+      /* mb TEXT
+  ------------------------*/
+      .mb-text-md {
+        font-size: 14px !important;
+        line-height: 17px !important;
+      }
+
+      .mb-text-xl {
+        font-size: 21px !important;
+      }
+
+      .mb-text-app-install {
+        font-size: 1.66em !important;
+      }
+
+      .mb-text-medium {
+        font-size: 13px !important;
+        line-height: 17px !important;
+      }
+
+      .mb-text-f1 {
+        font-size: 30px !important;
+        line-height: 1.15em !important;
+      }
+
+      .mb-text-hero-alerts {
+        font-size: 30px !important;
+      }
+
+      /* mb PADDING
+  ------------------------*/
+      .mb-p-t-20 {
+        padding-top: 20px !important;
+      }
+
+      /* mb IMAGE SWAP */
+      .img-mb-hide {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        max-height: 0 !important;
+        line-height: 0 !important;
+        opacity: 0 !important;
+        overflow: hidden !important;
+        font-size: 0 !important;
+      }
+
+      .img-mb-show {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+        line-height: 100% !important;
+        opacity: 1 !important;
+        overflow: visible !important;
+        font-size: inherit !important;
+      }
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* disable gmail highlighting address in footer */
+    a[href^="tel"],
+    a[href^="sms"] {
+      text-decoration: none;
+      color: inherit;
+      pointer-events: none;
+      cursor: default;
+    }
+
+    .gmail-contact a {
+      color: #525050 !important;
+      text-decoration: none !important;
+    }
+
+    /* iPhone centering bug */
+    @media only screen and (max-width: 480px) {
+
+      .bodyTable,
+      body {
+        width: 100vw !important;
+      }
+    }
+
+    /*Gmail fix */
+    @media only screen and (max-width: 600px) {
+      .hide {
+        display: none !important;
+      }
+    }
+
+    @media screen and (max-width: 520px) {
+      .md-w-6 {
+        width: 6% !important;
+      }
+    }
+
+    /* Fonts*/
+    .Sailec-Bold_h1 {
+      font-family: 'Sailec-Bold', 'Helvetica', Arial, sans-serif !important;
+    }
+
+    body [style*="Arial"] {
+      font-family: 'Arial', Helvetica, sans-serif !important;
+    }
+
+    h1 {
+      line-height: 1em;
+    }
+  </style>
+</head>
+
+<body style="width: 100%; min-width: 100%; height: 100%; margin: 0; padding: 0; background-color: #f5f6f6; font-size: 100%; line-height: 1em; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none;">
+  <div class="preheader" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+    We&#x27;ll help you down your path to progress.
+  </div>
+  <table class="bodyTable" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" style="border-collapse: collapse; width: 100%; height: 100%; margin: 0; padding: 0; min-width: 100%; font-size: 100%; line-height: 1em; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; background-color: #f5f6f6;">
+    <tr>
+      <td align="center" valign="top" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">
+        <table class="container" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; background-color: #FFFFFF;">
+          <tr>
+            <td align="center" valign="top" width="700" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">
+
+
+
+              <table class="mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="border-collapse: collapse;">
+                <tr>
+                  <td align="center" style="border-collapse: collapse; vertical-align: top; margin: 0; padding: 0;">
+                    <img class="img-mb-hide" width="700" alt="Choose your path to financial progress." border="0" src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/reactivation_goals1/FP_Desktop.png" style="display: block; width: 100%; height: auto; margin: auto; text-decoration: none; border: 0 none; outline: none; line-height: 100%; max-width: 700px;">
+                    <div class="img-mb-show" style="mso-hide:all; display: none; width: 0; height: 0; max-height: 0; line-height: 0; opacity: 0; overflow: hidden; font-size: 0; margin: 0; padding: 0;">
+                      <img class="img-mb-show" alt="Choose your path to financial progress." border="0" src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/reactivation_goals1/FP_Mobile.png" style="text-decoration: none; border: 0 none; outline: none; padding: 0; margin: 0; opacity: 0; width: 0; font-size: 0; display: none; height: 0; max-height: 0; line-height: 0; overflow: hidden;">
+
+                    </div>
+                  </td>
+                </tr>
+              </table>
+
+
+
+
+
+
+              <div style="">
+                <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle" style="border-collapse: collapse; background: none;">
+                  <tr>
+                    <td valign="top" height="30" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; height: 30px; font-size: 30px; line-height: 30px;" width="100%">&nbsp;</td>
+                  </tr>
+                </table>
+              </div>
+
+
+              <table class="mb-100" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" bgcolor="#FFFFFF" style="border-collapse: collapse;">
+                <tr>
+                  <td style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">
+                    <table class="mb-87" border="0" cellpadding="0" cellspacing="0" align="center" width="81%" style="border-collapse: collapse;">
+                      <tr>
+                        <td class="text-center" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0; text-align: center;">
+                          <p style="margin: 0; padding: 0; color: #525050; line-height: 1.45em; font-size: 17px; text-align: left; font-weight: normal;">
+                          </p>
+                          <div>
+                            <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle" style="border-collapse: collapse; background: none;">
+                              <tr>
+                                <td valign="top" height="10" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; height: 10px; font-size: 10px; line-height: 10px;"
+                                  width="100%">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <p style="margin: 0; padding: 0; color: #525050; line-height: 1.45em; font-size: 17px; text-align: left; font-weight: normal;">
+                            Hi John,
+
+                            <!--[if (gte mso 9)|(IE)]><table class="" width="100%" height="12" align="left" dir="ltr" border="0" cellpadding="0" cellspacing="0"><tr><td width="100%" align="left" valign="top" dir="ltr" height="12" style="margin:0;padding:0; border-collapse:collapse;height: 12px;line-height: 12px;display: block; mso-line-height: exactly;"><![endif]-->
+                            <span class="" height="12" style="font-size: 12px; height: 12px;line-height: 12px;display: block;">&nbsp;</span>
+                            <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+
+                            There's more than one path to financial progress, and we're here to help you find yours.
+
+                            <!--[if (gte mso 9)|(IE)]><table class="" width="100%" height="12" align="left" dir="ltr" border="0" cellpadding="0" cellspacing="0"><tr><td width="100%" align="left" valign="top" dir="ltr" height="12" style="margin:0;padding:0; border-collapse:collapse;height: 12px;line-height: 12px;display: block; mso-line-height: exactly;"><![endif]-->
+                            <span class="" height="12" style="font-size: 12px; height: 12px;line-height: 12px;display: block;">&nbsp;</span>
+                            <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                            Tell us about a financial goal that matters most to you, and we'll share ways to build your credit with that goal in mind.
+
+                          </p>
+                          <div>
+                            <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle" style="border-collapse: collapse; background: none;">
+                              <tr>
+                                <td valign="top" height="25" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; height: 25px; font-size: 25px; line-height: 25px;"
+                                  width="100%">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+
+
+              <table class="mb-100" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" bgcolor="#FFF9F3">
+                <tr>
+                  <td>
+                    <!-- 25px blank-spacer-div -->
+                    <div>
+                      <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                        <tr>
+                          <td valign="top" height="25" style="height:25px; font-size:25px; line-height:25px;" width="100%">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--//// ROW of 4 COLUMNS \\\\-->
+                    <table class="mb-95" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td valign="top">
+                          <!--//// FIRST COLUMN 1 \\\\-->
+                          <!--[if (gte mso 9)|(IE)]><table width="100%" align="left" dir="ltr" border="0" cellpadding="0" cellspacing="0"><tr><td width="9%" align="left" valign="top" dir="ltr" style="margin:0;padding:0; border-collapse:collapse;"><![endif]-->
+                          <table class="md-w-6 mb-hide" width="9%" align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="mb-center" align="center" valign="top">&nbsp;
+                              </td>
+                            </tr>
+                          </table>
+                          <!--//// COLUMN 2 \\\\-->
+                          <!--[if (gte mso 9)|(IE)]></td><td width="35%" align="left" valign="top" dir="ltr"><![endif]-->
+                          <table class="mb-100" width="35%" align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="mb-center" align="center" valign="top">
+                                <table class="mb-90" border="0" cellpadding="0" cellspacing="0" align="center" width="95%">
+                                  <tr>
+                                    <td class="text-center">
+                                      <!--//// Personalized message \\\\-->
+                                      <!--Outlook width-->
+                                      <!--[if (gte mso 9)|(IE)]>  <v:rect xmlns:v="urn:schemas-microsoft-com:vml"  style="height:1px;width:221px" strokecolor="#FFF9F3" fillcolor="#FFF9F3"></v:rect><![endif]-->
+                                      <p class="mb-center" style="text-align:left;color:#FBAE63;font-size:38px;font-family: 'Arial', Helvetica, sans-serif; line-height:1.4em;font-weight:bold;margin:0;padding:0;">
+                                        Pick a goal
+
+                                      </p><!-- 5px blank-spacer-div -->
+                                      <div>
+                                        <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                          <tr>
+                                            <td valign="top" height="5" style="height:5px; font-size:5px; line-height:5px;" width="100%">&nbsp;</td>
+                                          </tr>
+                                        </table>
+                                      </div>
+                                      <p class="mb-center" style="color:#4A4A4A;line-height:1.45em; font-size:17px;text-align:left;font-weight:normal;font-family: 'Arial', Helvetica, sans-serif;">
+                                        Once you select a goal, we'll send you some relevant articles to keep you headed in the right direction.
+
+                                      </p><!-- 20px blank-spacer-div -->
+                                      <div>
+                                        <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                          <tr>
+                                            <td valign="top" height="20" style="height:20px; font-size:20px; line-height:20px;" width="100%">&nbsp;</td>
+                                          </tr>
+                                        </table>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--//// COLUMN 3 \\\\-->
+                          <!--[if (gte mso 9)|(IE)]></td><td width="45%" align="left" valign="top" dir="ltr"><![endif]-->
+                          <table class="mb-100" width="45%" align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="mb-center" align="center" valign="top">
+                                <!--HOME-->
+                                <table class="mb-87" border="0" cellpadding="0" cellspacing="0" align="center" width="95%">
+                                  <tr>
+                                    <td class="mb-50" align="center" width="29%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div style="display:inline-block;text-align:center;">
+                                        <a href="#" target="_blank">
+                                          <img class="mb-center mb-100" src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/reactivation_goals1/FP_1.png" width="54" border="0" alt="Buy a Home" style="width:54px;max-width:54px;margin:0;display:inline-block">
+                                        </a>
+                                      </div>
+                                    </td>
+                                    <td align="center" width="2%" style="line-height:2px;height:2px;padding:0;margin:0;vertical-align: middle;">&nbsp;</td>
+                                    <td class="mb-50" align="center" width="68%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div class="text-left mb-center">
+                                        <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#
+" target="_blank"" style="height:36px;v-text-anchor:middle;width:221px" strokecolor="#FB7E57" fillcolor="#FB7E57"><w:anchorlock/><center style="color:#FFFFFF;font-family: 'Arial', Helvetica, sans-serif; font-size:16;font-weight:bold;letter-spacing:1px;">Buying a car</center></v:rect><![endif]-->
+                                        <a href="#" target="_blank" style="background-color:#FB7E57;border:1px solid #FB7E57;color:#FFFFFF;border-radius: 4px;display:inline-block;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:34px;text-align:center;text-decoration:none;width:221px; -webkit-text-size-adjust:none;mso-hide:all;font-weight:bold;letter-spacing:1px;">
+                                          Buy a home
+                                        </a>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table><!-- 3px blank-spacer-div -->
+                                <div class="mb-hide">
+                                  <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                    <tr>
+                                      <td valign="top" height="3" style="height:3px; font-size:3px; line-height:3px;" width="100%">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </div><!-- 10px blank-spacer-div -->
+                                <div class="mb-block" style="display:none; width:0; line-height:0; opacity:0; overflow:hidden; font-size:0;">
+                                  <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                    <tr>
+                                      <td valign="top" height="10" style="height:10px ; max-height:10px; line-height:10px;" width="100%">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <table class="mb-87" border="0" cellpadding="0" cellspacing="0" align="center" width="95%">
+                                  <tr>
+                                    <td class="mb-50" align="center" width="29%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div style="display:inline-block;text-align:center;">
+                                        <a href="#" target="_blank">
+                                          <img class="mb-center mb-100" src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/reactivation_goals1/FP_2.png" width="54" border="0" alt="Buy a car" style="width:54px;max-width:54px;margin:0;display:inline-block">
+                                        </a>
+                                      </div>
+                                    </td>
+                                    <td align="center" width="2%" style="line-height:2px;height:2px;padding:0;margin:0;vertical-align: middle;">&nbsp;</td>
+                                    <td class="mb-50" align="center" width="68%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div class="text-left mb-center">
+                                        <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#
+" target="_blank"" style="height:36px;v-text-anchor:middle;width:221px" strokecolor="#FB7E57" fillcolor="#FB7E57"><w:anchorlock/><center style="color:#FFFFFF;font-family: 'Arial', Helvetica, sans-serif; font-size:16;font-weight:bold;letter-spacing:1px;">Buying a car</center></v:rect><![endif]-->
+                                        <a href="#" target="_blank" style="background-color:#FB7E57;border:1px solid #FB7E57;color:#FFFFFF;border-radius: 4px;display:inline-block;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:34px;text-align:center;text-decoration:none;width:221px; -webkit-text-size-adjust:none;mso-hide:all;font-weight:bold;letter-spacing:1px;">
+                                          Buy a car
+                                        </a>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!-- 3px blank-spacer-div -->
+                                <div class="mb-hide">
+                                  <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                    <tr>
+                                      <td valign="top" height="3" style="height:3px; font-size:3px; line-height:3px;" width="100%">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </div><!-- 10px blank-spacer-div -->
+                                <div class="mb-block" style="display:none; width:0; line-height:0; opacity:0; overflow:hidden; font-size:0;">
+                                  <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                    <tr>
+                                      <td valign="top" height="10" style="height:10px ; max-height:10px; line-height:10px;" width="100%">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <table class="mb-87" border="0" cellpadding="0" cellspacing="0" align="center" width="95%">
+                                  <tr>
+                                    <td class="mb-50" align="center" width="29%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div style="display:inline-block;text-align:center;">
+                                        <a href="#" target="_blank">
+                                          <img class="mb-center mb-100" src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/reactivation_goals1/FP_3.png" width="54" border="0" alt="Credit Card" style="width:54px;max-width:54px;margin:0;display:inline-block">
+                                        </a>
+                                      </div>
+                                    </td>
+                                    <td align="center" width="2%" style="line-height:2px;height:2px;padding:0;margin:0;vertical-align: middle;">&nbsp;</td>
+                                    <td class="mb-50" align="center" width="68%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div class="text-left mb-center">
+                                        <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#
+" target="_blank"" style="height:36px;v-text-anchor:middle;width:221px" strokecolor="#FB7E57" fillcolor="#FB7E57"><w:anchorlock/><center style="color:#FFFFFF;font-family: 'Arial', Helvetica, sans-serif; font-size:16;font-weight:bold;letter-spacing:1px;">Buying a car</center></v:rect><![endif]-->
+                                        <a href="#" target="_blank" style="background-color:#FB7E57;border:1px solid #FB7E57;color:#FFFFFF;border-radius: 4px;display:inline-block;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:34px;text-align:center;text-decoration:none;width:221px; -webkit-text-size-adjust:none;mso-hide:all;font-weight:bold;letter-spacing:1px;">
+                                          Get a credit card
+                                        </a>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!-- 3px blank-spacer-div -->
+                                <div class="mb-hide">
+                                  <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                    <tr>
+                                      <td valign="top" height="3" style="height:3px; font-size:3px; line-height:3px;" width="100%">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </div><!-- 10px blank-spacer-div -->
+                                <div class="mb-block" style="display:none; width:0; line-height:0; opacity:0; overflow:hidden; font-size:0;">
+                                  <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                    <tr>
+                                      <td valign="top" height="10" style="height:10px ; max-height:10px; line-height:10px;" width="100%">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <table class="mb-87" border="0" cellpadding="0" cellspacing="0" align="center" width="95%">
+                                  <tr>
+                                    <td class="mb-50" align="center" width="29%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div style="display:inline-block;text-align:center;">
+                                        <a href="#" target="_blank">
+                                          <img class="mb-center mb-100" src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/reactivation_goals1/FP_4.png" width="54" border="0" alt="Money" style="width:54px;max-width:54px;margin:0;display:inline-block">
+                                        </a>
+                                      </div>
+                                    </td>
+                                    <td align="center" width="2%" style="line-height:2px;height:2px;padding:0;margin:0;vertical-align: middle;">&nbsp;</td>
+                                    <td class="mb-50" align="center" width="68%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div class="text-left mb-center">
+                                        <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#
+" target="_blank"" style="height:36px;v-text-anchor:middle;width:221px" strokecolor="#FB7E57" fillcolor="#FB7E57"><w:anchorlock/><center style="color:#FFFFFF;font-family: 'Arial', Helvetica, sans-serif; font-size:16;font-weight:bold;letter-spacing:1px;">Buying a car</center></v:rect><![endif]-->
+                                        <a href="#" target="_blank" style="background-color:#FB7E57;border:1px solid #FB7E57;color:#FFFFFF;border-radius: 4px;display:inline-block;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:34px;text-align:center;text-decoration:none;width:221px; -webkit-text-size-adjust:none;mso-hide:all;font-weight:bold;letter-spacing:1px;">
+                                          Save money</a>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!-- 3px blank-spacer-div -->
+                                <div class="mb-hide">
+                                  <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                    <tr>
+                                      <td valign="top" height="3" style="height:3px; font-size:3px; line-height:3px;" width="100%">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </div><!-- 10px blank-spacer-div -->
+                                <div class="mb-block" style="display:none; width:0; line-height:0; opacity:0; overflow:hidden; font-size:0;">
+                                  <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                                    <tr>
+                                      <td valign="top" height="10" style="height:10px ; max-height:10px; line-height:10px;" width="100%">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <table class="mb-87" border="0" cellpadding="0" cellspacing="0" align="center" width="95%">
+                                  <tr>
+                                    <td class="mb-50" align="center" width="29%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div style="display:inline-block;text-align:center;">
+                                        <a href="#" target="_blank">
+                                          <img class="mb-center mb-100" src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/reactivation_goals1/FP_5.png" width="54" border="0" alt="Debt" style="width:54px;max-width:54px;margin:0;display:inline-block">
+                                        </a>
+                                      </div>
+                                    </td>
+                                    <td align="center" width="2%" style="line-height:2px;height:2px;padding:0;margin:0;vertical-align: middle;">&nbsp;</td>
+                                    <td class="mb-50" align="center" width="68%" style="padding:0;margin:0;vertical-align: middle;">
+                                      <div class="text-left mb-center">
+                                        <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#
+" target="_blank"" style="height:36px;v-text-anchor:middle;width:221px" strokecolor="#FB7E57" fillcolor="#FB7E57"><w:anchorlock/><center style="color:#FFFFFF;font-family: 'Arial', Helvetica, sans-serif; font-size:16;font-weight:bold;letter-spacing:1px;">Buying a car</center></v:rect><![endif]-->
+                                        <a href="#" target="_blank" style="background-color:#FB7E57;border:1px solid #FB7E57;color:#FFFFFF;border-radius: 4px;display:inline-block;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:34px;text-align:center;text-decoration:none;width:221px; -webkit-text-size-adjust:none;mso-hide:all;font-weight:bold;letter-spacing:1px;">
+                                          Pay down debt</a>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--//// COLUMN 4 \\\\-->
+                          <!--[if (gte mso 9)|(IE)]></td><td width="9%" align="left" valign="top" dir="ltr"><![endif]-->
+                          <table class="md-w-6 mb-hide" width="9%" align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="mb-center" align="center" valign="top">&nbsp;
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                        </td>
+                      </tr>
+                    </table><!-- 30px blank-spacer-div -->
+                    <div>
+                      <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle">
+                        <tr>
+                          <td valign="top" height="30" style="height:30px; font-size:30px; line-height:30px;" width="100%">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+
+
+
+              <!-- Thumbs up - down-->
+              <table class="mb-100" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" bgcolor="#FFFFFF" style="border-collapse: collapse;">
+                <tr>
+                  <td style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">
+                    <table class="mb-86" border="0" cellpadding="0" cellspacing="0" align="center" width="86%" style="border-collapse: collapse;">
+                      <tr>
+                        <td class="text-center" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; text-align: center; padding: 0 0;">
+                          <!-- 25px blank-spacer-div -->
+                          <div>
+                            <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle" style="border-collapse: collapse; background: none;">
+                              <tr>
+                                <td valign="top" height="25" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; height: 25px; font-size: 25px; line-height: 25px;"
+                                  width="100%">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <p style="margin: 0; padding: 0; color: #525050; font-style: italic; font-size: 16px; font-family: arial; line-height: 1.4em; font-weight: bold;">
+                            Was this email helpful?
+                          </p><!-- 10px blank-spacer-div -->
+                          <div>
+                            <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle" style="border-collapse: collapse; background: none;">
+                              <tr>
+                                <td valign="top" height="10" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; height: 10px; font-size: 10px; line-height: 10px;"
+                                  width="100%">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <table border="0" cellpadding="0" cellspacing="0" align="center" width="15%" style="border-collapse: collapse;">
+                            <tr>
+                              <td class="text-center mb-p-r-5" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; padding: 0; text-align: center; padding-right: 0; margin: auto;">
+                                <a href="#" target="_blank">
+                                  <img src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/2019_mass_acct_update/thumbs-up.png" width="32" style="height: auto; margin: auto; text-decoration: none; border: 0 none; outline: none; line-height: 100%; width: 32px; max-width: 64px; display: inline-block;">
+                                </a>
+                              </td>
+                              <td align="center" width="2%" style="line-height:2px;height:2px;padding:0;margin:0;vertical-align: middle;">&nbsp;</td>
+                              <td class="text-center mb-p-l-5" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; padding: 0; text-align: center; padding-left: 0; margin: auto;">
+                                <a href="#" target="_blank">
+                                  <img src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/2019_mass_acct_update/thumbs-down.png" width="32" style="height: auto; margin: auto; text-decoration: none; border: 0 none; outline: none; line-height: 100%; width: 32px; max-width: 64px; display: inline-block;">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- 25px blank-spacer-div -->
+                          <div>
+                            <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle" style="border-collapse: collapse; background: none;">
+                              <tr>
+                                <td valign="top" height="25" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; height: 25px; font-size: 25px; line-height: 25px;"
+                                  width="100%">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+
+
+
+
+
+
+
+              <table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="border-collapse: collapse;">
+                <tr>
+                  <td style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">
+                    <table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="border-collapse: collapse;">
+                      <tr>
+                        <td style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0; padding-left: 3.5%; padding-right: 3.5%;">
+                          <div>
+                            <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle" style="border-collapse: collapse; background: none;">
+                              <tr>
+                                <td valign="top" height="25" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; height: 25px; font-size: 25px; line-height: 25px;"
+                                  width="100%">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <table class="mb-100 mb-left" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                            <tr>
+                              <td valign="top" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">
+                                <!--[if (gte mso 9)|(IE)]><table width="100%" align="left" dir="ltr" border="0" cellpadding="0" cellspacing="0">
+                                  <tr><td width="100" align="left" valign="top" dir="ltr" style="margin:0;padding:0; border-collapse:collapse;"><![endif]-->
+                                <table class="mb-100 mb-inline-block" width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                  <tr>
+                                    <td class="mb-center" align="center" valign="top" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">
+                                      <table class="mb-left" border="0" cellpadding="0" cellspacing="0" align="center" width="120" style="border-collapse: collapse;">
+                                        <tr>
+                                          <td style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;width:50px;"><a href="#"><img src="https://creditkarmacdn-a.akamaihd.net/res/img/mailings/ck/common/footer/androidIcon.png"
+                                                width="36" border="0" alt="Android Icon" style="display: block; width: 100%; height: auto; margin: 0; text-decoration: none; border: 0 none; outline: none; line-height: 100%; max-width: 36px;"></a></td>
+                                          <td style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;"><a href="https://www.creditkarma.com/notification-events/redirect/mailing?ctPayload=H4sIAAAAAAAAE12QwW4CIRCG34WzTViQxd1bNTXtpSdvTbOZZWddIsIGRqMxvntxaxPriYTv4%2Bef%2Bbow27GalbIQVcdNK0uj1QL4XMpeSIO80L2uBJsxSqwuVMnlQmqpZmyMeFy6YHas9gfnZgwONISYwwj3owPClz142GLMjzsgeIc0ZKrRKKO0FrpsBVdQYV%2B1QkMp55JDW91tVl%2BYCZ7QU3M%2FN%2BcRcwDuwbps%2FVFn%2FW6DJ8rodRwdPqBkIqLPICIYskcgG3yzDeCKxgyH6B9dNDea5XUINLXuHZ6aRHFt0XW8yGiDiZ6B5NPMiT4D2d6a6ZOPLmvpnPIuGjzm%2FFXobuXfbuVXzua1PfOpBqvV%2F%2FvfocX1%2Bv0DtPK176wBAAA%3D&content_link=http%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fcredit-karma-mobile-free-credit%2Fid519817714%3Fls%3D1%26amp%3Bmt%3D8&notificationId=testNotificationId"><img
+                                                src="https://creditkarmacdn-a.akamaihd.net/res/img/mailings/ck/common/footer/appleIcon.png" width="36" border="0" alt="Apple ios Icon" style="display: block; width: 100%; height: auto; text-decoration: none; border: 0 none; outline: none; line-height: 100%; max-width: 36px; margin: 0;"></a></td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]></td><td width="20" align="left" valign="top" dir="ltr"><![endif]-->
+                                <table class="mb-hide" width="20" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                  <tr>
+                                    <td class="mb-center" align="center" valign="top" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">&nbsp;
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]></td><td width="340" align="left" valign="top" dir="ltr"><![endif]-->
+                                <table class="mb-100" width="340" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                  <tr>
+                                    <td class="mb-center" align="center" valign="top" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0;">
+                                      <table class="mb-100" border="0" cellpadding="0" cellspacing="0" align="left" width="340" style="border-collapse: collapse;">
+                                        <tr>
+                                          <td class="mb-p-t-20" style="border-collapse: collapse; vertical-align: top; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; color: #525050; line-height: 1.5; font-size: 13px; text-align: left;">This
+                                            is a promotional email. To manage your Credit Karma emails, please go to your
+                                            <a href="https://www.creditkarma.com/notification-events/redirect/mailing?ctPayload=H4sIAAAAAAAAE12QwWrDMBBEfyXo0FMKtmXJsXtraGgPLT3kVopZy%2BtERJaMtA4JIf9exU0hzUmgNzPszNeJ6ZZVTGSZyNKm4GWbJ9CUWSq5BCF5KUWpBLA5o8CqVMiEL3jBxZwNHvfPxqkdq%2BxozJzBSFvnYxhhPxggfOzBwgZ9NLdA8AphG6nEdpFneZl3UApZ8KJLikbmRYpKlTnnVzWrTkw5S2ipvr7r44AxAHvQJqr%2BqNF2t8YDRbR0fT9arYC0s7MH6Ien2buzmpzXdjP79NihR6sw3PiD8og2uj2CIr2fzPXGgUlrtR29vdWiutAoXjlHU7XO4KEO5FcaTZukEa0x0D3gyTRMoA9Hurte%2BNZGWTiGOFiN%2B5i%2FdO2l4cul4dLouO09n85glfj%2F%2F7tMdj5%2F%2FwBEwBFQ0QEAAA%3D%3D&content_link=https%3A%2F%2Fwww.creditkarma.com%2Fmyprofile%2Fpreferences&notificationId=testNotificationId"
+                                              style="color:#47a3ff;text-decoration:none;">Communication
+                                              &amp; Monitoring Preferences</a>.
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="border-collapse: collapse;">
+                <tr>
+                  <td align="left" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; line-height: 1em; margin: 0; padding: 0; padding-left: 3.5%; padding-right: 3.5%; padding-top: 2.2%;">
+                    <p style="margin: 0; padding: 0; font-size: 13px; color: #525050; font-family: Arial, Helvetic, sans-serif; clear: left; line-height: 1.5; font-style: italic; text-decoration: none; margin-top: 1em;">Apple, the Apple logo, and
+                      iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</p>
+                    <p style="margin: 0; padding: 0; font-size: 13px; color: #525050; font-family: Arial, Helvetic, sans-serif; clear: left; line-height: 1.5; font-style: italic; text-decoration: none; margin-top: 0.7em;">Android, Google Play and
+                      the Google Play logo are trademarks of Google Inc.</p>
+                    <p style="margin: 0; padding: 0; font-size: 13px; color: #525050 !important; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; text-align: left; text-decoration: none !important; margin-top: 1.7em;">
+                      <span class="gmail-contact">Credit Karma, Inc., P.O. Box 520, San Francisco, CA 94104-0520 Copyright &copy; 2008-2019 Credit Karma, Inc. All Rights Reserved. Note: Never share your online banking or Credit Karma passwords with
+                        anyone, including us!</span>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="border-collapse: collapse;">
+                <tr>
+                  <td align="left" style="vertical-align: top; padding: 0; margin: 0; line-height: 1em; border-collapse: collapse; font-family: 'Arial', Helvetica, sans-serif; color: #333333; padding-right: 3.5%; padding-top: 3%; padding-bottom: 1.5%; padding-left: 3.5%;">
+                    <span class="text-left mb-block font-13" style="margin: 0; padding: 0; text-align: left; font-size: 13px;">
+                      <a href="https://www.creditkarma.com/notification-events/redirect/mailing?ctPayload=H4sIAAAAAAAAE2WQ0WrCMBSGX2Xk2kHTNG3tpTLZboYX3o1RjumpBmMiyVEs4rvv2DlwW24C%2Bb6c%2FH8%2BLsJ2ohF5nSnZV7w6letClR1AiUWPSlW6XE%2FFRFASjdRlpmpVKT0Rh4inmQtmJxp%2FdG4i4EjbEHkY4f7ggPB5Dx42GPlyBwSvkLZMC63KQk8zWWko6lJnua7z6ToroJQ9anm3RXMRJnhCT%2B19Xw0H5AG4B%2BvY%2BqHO%2Bt0Kz8RoGe0JzPC0DM6a4cFJJiJ6NiKCIZbIBt9uAjjZmu0x%2BkcXzY2yvAiBxvi9w3ObKC4sui6TjFaY6C9Q2Vg%2B0Xsg21szPvLWsZaGxJ%2FS4onnz0N3a%2FFyazHnmLt%2FfIwhGv37%2FLt9fr1%2BfgGSx8G5tQEAAA%3D%3D&content_link=https%3A%2F%2Fwww.creditkarma.com%2Fabout%2Fprivacy&notificationId=testNotificationId"
+                        style="color:#47a3ff;text-decoration:none;font-size: 13px;">Privacy
+                        Policy</a>&nbsp;&nbsp;&nbsp;
+                      <a href="https://www.creditkarma.com/notification-events/redirect/mailing?ctPayload=H4sIAAAAAAAAE12QTWsCMRCG%2F4rkbGGzWeO6R6XSXnqyp1KW2WTiBrOJJKMo4n9v3FqwngJ5nvl45%2BvCrGYN62QF3EilahSoeTXHRdUtQIKWnUBVsimjxBo%2Bk4WoxVzIKdtHPC5dUDvW%2BINzUwYH6kPMzQiHvQPClwE8bDHmYg0Eb5D6TEvodGGwRqNAw0wLkB3UNefS8EqZ8m6z5sJU8ISe2vu7Oe8xN8ABrMvWH3XW7zZ4oow2GIc0CWbymfDBSCoi%2BswjgiJ7BLLBt9sAjreqP0T%2F6KK60SyvQ6BxeePw1CaKa4tOF3yck%2BgZiGKMnugjkDVWjUPeddbSOeWTtHjM%2FVdB3zK83jKsnM3Xe%2BbjGqyZ%2Ff%2F%2FzV5er98%2F2zv84rMBAAA%3D&content_link=https%3A%2F%2Fwww.creditkarma.com%2Fabout%2Fterms&notificationId=testNotificationId"
+                        style="color:#47a3ff;text-decoration:none;font-size: 13px;">Terms of
+                        Use</a>&nbsp;&nbsp;&nbsp;
+                      <a href="https://www.creditkarma.com/notification-events/redirect/mailing?forwardCtPayload=true&ctPayload=H4sIAAAAAAAAE2WQy2rDMBBF%2F0VrF%2BTI72ULod00UNxVKUaWxomIIhlpbBJC%2Fr0TN4W0XQnmHF3N1ceZGc0aVpVixcVQDWmd9wXXuS5LUYg6y7jgilcsYRhZk%2BYFF5UglLAxwPxovdqzxk3WJkxOuPOBwhAOo5UIDwfp5BYCXdYS5bOMO6JFzrOeU2ips1ppUfdVsapyzss%2BTWFQN5s1Z6a8Q3DY3c72NAIFwEEaS9YPtcbtWzgioXcXpz6qYHq4E2gA4AgHkArNLNF41229tGmndlNw9y6oKyV57T0uuw8Wjl3EsDZgNU8JtRDxLxB8aR7x1aMZjFoeedGkxVOkH%2Blgpvwnr68V3iBCmEF3mxE3E%2F6Tll1Yk%2F%2Bef%2FdfXS6fX4Bo1x23AQAA&content_link=https%3A%2F%2Fwww.creditkarma.com%2Fmyprofile%2Fnotifications-unsubscribe&notificationId=testNotificationId"
+                        style="color:#47a3ff;text-decoration:none;font-size: 13px;">Unsubscribe</a></span>
+                    <div>
+                      <table class="spacer mb-100" border="0" cellpadding="0" cellspacing="0" width="100%" align="middle" style="border-collapse: collapse; background: none;">
+                        <tr>
+                          <td valign="top" height="15" style="border-collapse: collapse; vertical-align: top; color: #333333; font-family: 'Arial', Helvetica, sans-serif; margin: 0; padding: 0; height: 15px; font-size: 15px; line-height: 15px;"
+                            width="100%">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div>
+                      <img src="https://www.creditkarma.com/notification-events/pixel/mailing?ctPayload=H4sIAAAAAAAAE2WPy27DIBBF%2F4W1K9nG72WjVu2m3WRXVdYYhhgVgwVjK1GUfy9OU6mPFRLncLn37cy0ZB0TpRoAlBzaQgwqV9XQSJnLYsBKZCoVLGEUWJeVVcobXvMqYbPH9d448cE6uxiTMFhodD6GEU6zAcK7CSwc0MfHEgieIIyRSkBe5ZKjUI0qmqLkOLQZtHldq6blxc1m3ZkJZwkt9bdzf5oxBuAE2kTrmwbhEW0EHkGQXoG0s%2F3Bgcl6MS7e%2FnRRbDTKsz7ilqIMHvtA%2FlGjkWkWyR4D%2FQU8ve4K9OJIKy2ufzzLqIVTiHt7XGP8zsmt4MNW8HVG%2Bw9fS7Cu%2FH3%2FtSu7XN4%2FAZRhmUSPAQAA&notificationId=testNotificationId"
+                        width="1" height="1">
+                      <img src="https://pixel.app.returnpath.net/pixel.gif?r=2601e78cdeee473088cb8e8240a4c8e137a6cf78&c=reactivation_goal1_churn" width="1" height="1"> </div>
+                  </td>
+                </tr>
+              </table>
+              <table cellpadding="0" cellspacing="0" border="0" class="hide" width="100%">
+                <tr>
+                  <td height="1" class="hide" style="width: 100%; min-width:500px; font-size:0px;line-height:0px;">
+                    <img height="1" src="https://creditkarmacdn-a.akamaihd.net/res/content/mailings/ck/reminder_series_refresh/spacer.gif" style="width: 100%; min-width:auto; text-decoration: none; border: none; -ms-interpolation-mode: bicubic;">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
